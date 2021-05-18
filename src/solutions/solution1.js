@@ -1,6 +1,5 @@
 export function solution1() {
-
-    setInterval(() => {
+    console.log("solution 1");
     let flavors = window.iceCreamFlavors;
     if(flavors.length > 0){
       $('ul li').remove();
@@ -8,5 +7,4 @@ export function solution1() {
         flavors.map( flavor => $(`<li>${flavor}</li>`))
       )
     }
-  }, 1400);
 }
